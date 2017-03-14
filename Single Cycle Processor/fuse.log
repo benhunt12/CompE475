@@ -1,0 +1,49 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o K:/HW2/testbench_isim_beh.exe -prj K:/HW2/testbench_beh.prj work.testbench work.glbl 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "K:/HW2/signext.v" into library work
+Analyzing Verilog file "K:/HW2/s12.v" into library work
+Analyzing Verilog file "K:/HW2/regfile.v" into library work
+Analyzing Verilog file "K:/HW2/mux2.v" into library work
+Analyzing Verilog file "K:/HW2/maindec.v" into library work
+WARNING:HDLCompiler:568 - "K:/HW2/maindec.v" Line 39: Constant value is truncated to fit in <9> bits.
+Analyzing Verilog file "K:/HW2/flopr.v" into library work
+Analyzing Verilog file "K:/HW2/aludec.v" into library work
+Analyzing Verilog file "K:/HW2/alu.v" into library work
+Analyzing Verilog file "K:/HW2/adder.v" into library work
+Analyzing Verilog file "K:/HW2/datapath.v" into library work
+Analyzing Verilog file "K:/HW2/controller.v" into library work
+Analyzing Verilog file "K:/HW2/mips.v" into library work
+Analyzing Verilog file "K:/HW2/imem.v" into library work
+Analyzing Verilog file "K:/HW2/dmem.v" into library work
+Analyzing Verilog file "K:/HW2/top.v" into library work
+Analyzing Verilog file "K:/HW2/testbench.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module maindec
+Compiling module aludec
+Compiling module controller
+Compiling module flopr(WIDTH=32)
+Compiling module adder
+Compiling module s12
+Compiling module mux2(WIDTH=32)
+Compiling module regfile
+Compiling module mux2(WIDTH=5)
+Compiling module signext
+Compiling module alu
+Compiling module datapath
+Compiling module mips
+Compiling module imem
+Compiling module dmem
+Compiling module top
+Compiling module testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 Verilog Units
+Built simulation executable K:/HW2/testbench_isim_beh.exe
+Fuse Memory Usage: 27180 KB
+Fuse CPU Usage: 763 ms
